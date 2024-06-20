@@ -1,0 +1,38 @@
+.navbar-custom {
+    background-color: #BC9693;
+}
+
+.motivation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 100px;
+    background-color: #BC9693;
+    margin-top: 50px;
+}
+
+.context {
+    text-align: center;
+    padding: 10px 40px;
+    margin-top: 50px;
+}
+
+.context-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.context-flex div {
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.context-flex div h2 {
+    margin-right: 80px;
+}
