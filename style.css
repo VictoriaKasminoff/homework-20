@@ -2,6 +2,10 @@
     background-color: #BC9693;
 }
 
+.sleepy-heads {
+    margin-top: 30px;
+}
+
 .motivation {
     display: flex;
     flex-direction: column;
@@ -21,18 +25,16 @@
 
 .context-flex {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
 }
 
 .context-flex div {
     display: flex;
+    flex-direction: column;
     text-align: left;
-    align-items: flex-start;
+    justify-content: center;
 }
 
-.context-flex div h2 {
-    margin-right: 80px;
+.app-img {
+    width: 300px;
 }
